@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CC1E12FA-7D31-47D3-A671-7F6A7A02F5D1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ControlLibrary</RootNamespace>
+    <AssemblyName>ControlLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ControlHelper.cs" />
+    <Compile Include="FormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBase.Designer.cs">
+      <DependentUpon>FormBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAlert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAlert.Designer.cs">
+      <DependentUpon>frmAlert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="iCombobox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="iDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="iLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="iRichtextbox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataGridViewTextAndImageColumn.cs" />
+    <Compile Include="TimerNhapNhay.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormBase.resx">
+      <DependentUpon>FormBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlert.resx">
+      <DependentUpon>frmAlert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iButton.resx">
+      <DependentUpon>iButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iCombobox.resx">
+      <DependentUpon>iCombobox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iDataGridView.resx">
+      <DependentUpon>iDataGridView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iLabel.resx">
+      <DependentUpon>iLabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimerNhapNhay.resx">
+      <DependentUpon>TimerNhapNhay.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ThanMaoKhe\ThanMaoKheRepo\LibraryExtentions\LibraryExtentions.csproj">
+      <Project>{95ac0ccc-04c5-42b1-999f-55e0bd21e9cd}</Project>
+      <Name>LibraryExtentions</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
