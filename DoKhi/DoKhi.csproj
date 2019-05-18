@@ -163,17 +163,17 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\ThanMaoKhe\ThanMaoKheRepo\LibraryExtentions\LibraryExtentions.csproj">
-      <Project>{95AC0CCC-04C5-42B1-999F-55E0BD21E9CD}</Project>
-      <Name>LibraryExtentions</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\ThanMaoKhe\ThanMaoKheRepo\ThanMaoKhe.ModuleOPC\ThanMaoKhe.ModuleOPC.csproj">
-      <Project>{E762231B-2000-41CE-8210-462FD6887337}</Project>
-      <Name>ThanMaoKhe.ModuleOPC</Name>
-    </ProjectReference>
     <ProjectReference Include="..\ControlLibrary\ControlLibrary.csproj">
       <Project>{CC1E12FA-7D31-47D3-A671-7F6A7A02F5D1}</Project>
       <Name>ControlLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibraryExtentions\LibraryExtentions.csproj">
+      <Project>{95AC0CCC-04C5-42B1-999F-55E0BD21E9CD}</Project>
+      <Name>LibraryExtentions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ThanMaoKhe.ModuleOPC\ThanMaoKhe.ModuleOPC.csproj">
+      <Project>{E762231B-2000-41CE-8210-462FD6887337}</Project>
+      <Name>ThanMaoKhe.ModuleOPC</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -5,11 +5,11 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoKhi", "DoKhi\DoKhi.csproj", "{5E24AC20-52C6-4F6C-BBB2-DE5516751AAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryExtentions", "..\ThanMaoKhe\ThanMaoKheRepo\LibraryExtentions\LibraryExtentions.csproj", "{95AC0CCC-04C5-42B1-999F-55E0BD21E9CD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThanMaoKhe.ModuleOPC", "..\ThanMaoKhe\ThanMaoKheRepo\ThanMaoKhe.ModuleOPC\ThanMaoKhe.ModuleOPC.csproj", "{E762231B-2000-41CE-8210-462FD6887337}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlLibrary", "ControlLibrary\ControlLibrary.csproj", "{CC1E12FA-7D31-47D3-A671-7F6A7A02F5D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThanMaoKhe.ModuleOPC", "ThanMaoKhe.ModuleOPC\ThanMaoKhe.ModuleOPC.csproj", "{E762231B-2000-41CE-8210-462FD6887337}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryExtentions", "LibraryExtentions\LibraryExtentions.csproj", "{95AC0CCC-04C5-42B1-999F-55E0BD21E9CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,18 +21,18 @@ Global
 		{5E24AC20-52C6-4F6C-BBB2-DE5516751AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E24AC20-52C6-4F6C-BBB2-DE5516751AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E24AC20-52C6-4F6C-BBB2-DE5516751AAD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{95AC0CCC-04C5-42B1-999F-55E0BD21E9CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{95AC0CCC-04C5-42B1-999F-55E0BD21E9CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{95AC0CCC-04C5-42B1-999F-55E0BD21E9CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{95AC0CCC-04C5-42B1-999F-55E0BD21E9CD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E762231B-2000-41CE-8210-462FD6887337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E762231B-2000-41CE-8210-462FD6887337}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E762231B-2000-41CE-8210-462FD6887337}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E762231B-2000-41CE-8210-462FD6887337}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CC1E12FA-7D31-47D3-A671-7F6A7A02F5D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CC1E12FA-7D31-47D3-A671-7F6A7A02F5D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC1E12FA-7D31-47D3-A671-7F6A7A02F5D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC1E12FA-7D31-47D3-A671-7F6A7A02F5D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E762231B-2000-41CE-8210-462FD6887337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E762231B-2000-41CE-8210-462FD6887337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E762231B-2000-41CE-8210-462FD6887337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E762231B-2000-41CE-8210-462FD6887337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95AC0CCC-04C5-42B1-999F-55E0BD21E9CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95AC0CCC-04C5-42B1-999F-55E0BD21E9CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95AC0CCC-04C5-42B1-999F-55E0BD21E9CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95AC0CCC-04C5-42B1-999F-55E0BD21E9CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -101,7 +101,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\ThanMaoKhe\ThanMaoKheRepo\LibraryExtentions\LibraryExtentions.csproj">
+    <ProjectReference Include="..\LibraryExtentions\LibraryExtentions.csproj">
       <Project>{95ac0ccc-04c5-42b1-999f-55e0bd21e9cd}</Project>
       <Name>LibraryExtentions</Name>
     </ProjectReference>
